@@ -65,12 +65,12 @@ rm -rf ./small/shadowsocks-rust
 popd
 
 # Docker
-svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman package/luci-app-dockerman
-git clone --depth=1 https://github.com/lisaac/luci-lib-docker
-if [ -e feeds/packages/utils/docker-ce ];then
-	sed -i '/dockerd/d' package/luci-app-dockerman/Makefile
-	sed -i 's/+docker/+docker-ce/g' package/luci-app-dockerman/Makefile
-fi
+# svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman package/luci-app-dockerman
+# git clone --depth=1 https://github.com/lisaac/luci-lib-docker
+# if [ -e feeds/packages/utils/docker-ce ];then
+# 	sed -i '/dockerd/d' package/luci-app-dockerman/Makefile
+# 	sed -i 's/+docker/+docker-ce/g' package/luci-app-dockerman/Makefile
+# fi
 
 # Mod zzz-default-settings
 sed -i "/commit luci/i\uci set luci.main.mediaurlbase='/luci-static/argon'" package/lean/default-settings/files/zzz-default-settings
