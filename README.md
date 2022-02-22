@@ -78,8 +78,8 @@ chmod   755  update-amlogic-openwrt.sh
 
 # + 版和 +o 版的区别
 
-[[N1 盒子] 关于 N1 直刷包 29+版及 29+o 版的简单说明和不完全测试](https://www.right.com.cn/forum/thread-3190663-1-1.html)
-[[N1 盒子] 终于找到真正的锅了：关于 N1 进行 speedtest 测速忽快忽慢的原因](https://www.right.com.cn/forum/thread-4017145-1-1.html)
+- [[N1 盒子] 关于 N1 直刷包 29+版及 29+o 版的简单说明和不完全测试](https://www.right.com.cn/forum/thread-3190663-1-1.html)
+- [[N1 盒子] 终于找到真正的锅了：关于 N1 进行 speedtest 测速忽快忽慢的原因](https://www.right.com.cn/forum/thread-4017145-1-1.html)
 
 根据实际体验，建议刷 + 版而不是 +o 版更加简单易用
 
